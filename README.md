@@ -10,9 +10,10 @@ Temperature and salinity
 
 ## 3. Define limits for Argo data: locations, time
 
-    - Rob: ArgoPy can select for a time period and in a rectangular area using lat/long bounds and pressure bounds. Alternatively can select specific floats or profiles.
+Rob: ArgoPy can select for a time period and in a rectangular area using lat/long bounds and pressure bounds. Alternatively can select specific floats or profiles.
     
 North Atlantic
+
 Last year of data
 
 ## 4. Prepare data for the Machine Learning Model
