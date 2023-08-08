@@ -1,24 +1,29 @@
 # ohw23_proj_argo_ml
 
 ## Get argo data
-Argopy
+Argopy: https://argopy.readthedocs.io/en/latest/
+
 ## Define which data we are going to use
+Temperature and salinity
 
 ## Define limits for Argo data: locations, time
+North Atlantic
+Last year of data
 
 ## Prepare data for the Machine Learning Model
+Prepare the data vertically to be equal gridded
 
 ## Define some configurations on the ML model
+09AUG - talk about that
 
 ## Apply the ML model
+09AUG - talk about that
 
-Develop python scripts to process Argo Floats data from GDAC. The focus will be on obtaining real-time and delayed mode core Argo (T, S and P)
-Apply an unsupervised Machine Learning model (Gaussian Mixture Model - GMM), using a Profile Classification Model. With this technique, it is expected to be able to identify outliers in the data.
-Apply IOOS QC on Argo data? Generate Spikes?
-Apply a Dense Neural Network model on a training set of models and then test with the entire dataset
+## Generate spikes on the data
+Add some random noise on the GDAC data
 
-
-## (Optional) Generate spikes on the data
+## Prepare the final result
+Jupyter notebook with all the steps
 
 ## (Optional) Apply IOOS QC on the "fake" data
 
