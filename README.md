@@ -3,6 +3,8 @@
 ## 1. Get argo data
 Argopy: https://argopy.readthedocs.io/en/latest/
 
+  - Rob: I'll help work on this
+
 ## 2. Define which data we are going to use
 Temperature and salinity
 
@@ -33,6 +35,8 @@ Add some random noise to the GDAC data
 Jupyter notebook with all the steps
 
 ## (Optional) Apply IOOS QC on the "fake" data
+
+If we have time, can use the ioos_qc module's qartod.spike_test function. 
 
 ## (Optional) Prepare the data for the Dense Neural Network (DNN) model
 
