@@ -11,7 +11,8 @@ North Atlantic
 Last year of data
 
 ## Prepare data for the Machine Learning Model
-Prepare the data vertically to be equal gridded
+Prepare the data vertically to be equal gridded. Use of numpy,interp?
+![image](https://github.com/oceanhackweek/ohw23_proj_argo_ml/assets/47478764/3db8a0b9-2238-491d-8312-8a3e7cd39fd2)
 
 ## Define some configurations on the ML model
 09AUG - talk about that
@@ -20,7 +21,7 @@ Prepare the data vertically to be equal gridded
 09AUG - talk about that
 
 ## Generate spikes on the data
-Add some random noise on the GDAC data
+Add some random noise to the GDAC data
 
 ## Prepare the final result
 Jupyter notebook with all the steps
