@@ -41,6 +41,14 @@ Try to find the thresholds for each test
 - https://cdn.ioos.noaa.gov/media/2020/03/QARTOD_TS_Manual_Update2_200324_final.pdf
 - https://ioos.github.io/ioos_qc/
 
+Argo Test    	 IOOS Test      	Thresholds                               	    IOOS Module
+Spike       	 Spike          	3 C for suspect, 8 for fail              	    spike_test
+Gradient    	 Rate of Change 	3*StdDev                                 	    rate_of_change_test
+Frozen      	 Rate of Change 	Very small deviations' -> 1 StdDev? Less?	    rate_of_change_test
+Stuck Value  	 Rate of Change 	0 (Stuck Value means zero change)        	    rate_of_change_test
+Global Range   Gross Range Test	Appropriate min/max extremes for all ocean	  gross_range_test
+Regional Range Gross Range Test	Appropriate min/max extremes for region  	    gross_range_test
+
 ## 5. Define some configurations on the ML model
 09AUG - talk about that
 
