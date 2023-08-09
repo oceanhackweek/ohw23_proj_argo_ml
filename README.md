@@ -26,6 +26,9 @@ The input data needs to have a format similar to each:
 - each column represents a data value in a specific depth
 - you can add two more columns on the data related to the position of the profiles
 
+Need to turn full Argo data DF to two dataframes, one for temp and one for salinity, with the following columns: LATITUDE, LONGITUDE, and each unique value of PRES
+- Each row is a unique lat/long pair, and has the TEMP or PSAL at the depth corresponding to each PRES column
+
 ## 5. Define some configurations on the ML model
 09AUG - talk about that
 
