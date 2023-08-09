@@ -1,0 +1,6 @@
+argopy
+pandas
+numpy
+tersor-flow
+scikit-learn
+tensorflow
