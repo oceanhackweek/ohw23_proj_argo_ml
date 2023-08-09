@@ -36,6 +36,11 @@ Add some random noise to the GDAC data
 
 If we have time, can use the ioos_qc module's qartod.spike_test function. 
 
+Try to find the thresholds for each test
+- https://www.ukargo.net/data/quality_control/
+- https://cdn.ioos.noaa.gov/media/2020/03/QARTOD_TS_Manual_Update2_200324_final.pdf
+- https://ioos.github.io/ioos_qc/
+
 ## 5. Define some configurations on the ML model
 09AUG - talk about that
 
