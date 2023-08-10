@@ -16,3 +16,4 @@ jupyter-server
 jupyter_client
 jupyter_core
 scipy==1.10.1
+ioos_qc
