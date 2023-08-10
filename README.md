@@ -46,8 +46,10 @@ Try to find the thresholds for each test
 - Gradient (Argo) / Rate of Change (IOOS) -> Threshold of 3*StnDev
 - Global Range / Gross Range -> Min/max for all ocean. Will need "unrealistic" spikes to properly test. 
 - Regional Range / Gross Range -> Min/max for region. Will need "unrealistic" spikes to properly test. 
-- Frozen / Rate of Change -> 'Very small deviations', we would need to come up with a value. May not be necessary to run in addition to Gradient
-- Stuck Value / Rate of Change -> Threshold of 0. May not be necessary to run in addition to Gradient. 
+- Frozen / Flat Line -> 'Very small deviations', we would need to come up with a value. May not be necessary to run in addition to Gradient
+- Stuck Value / Flat Line -> Threshold of 0. May not be necessary to run in addition to Gradient.
+
+Flat Line and Rate of Change Tests are for a time series of data - not really appropriate to compare data within a single profile. 
 
 ## 5. Define some configurations on the ML model
 09AUG - talk about that
