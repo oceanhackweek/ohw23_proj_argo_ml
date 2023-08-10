@@ -7,11 +7,21 @@ argo_df = pd.read_csv('data_for_spikes.csv')
 
 argo_df = argo_df.drop(argo_df.columns[0],axis=1)
 
+# note: this will generate random noise on every run - so the results will not be the same between runs
+
 noise = np.random.normal(0,2,[len(argo_df.index),len(argo_df.columns)]) # creating a dataframe of normally distributed values around 0, with a stndev of 2. Stndev can be changed to make more or less noisy data
 
 argo_noise = argo_df+noise
 
 argo_noise.to_csv('argo_noise.csv',index=False)
+
+'''
+IOOS Flags:
+1: Pass
+2: Not Applicable/Can't Calculate (for instance, the first point of data in a spike test since there's no prior data to compare to)
+3: Suspect
+4: Fail
+'''
 
 spike_flags = pd.DataFrame(index=argo_noise.index,columns=argo_noise.columns)
 range_flags = pd.DataFrame(index=argo_noise.index,columns=argo_noise.columns)
