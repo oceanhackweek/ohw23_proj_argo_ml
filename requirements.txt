@@ -6,6 +6,15 @@ tensorflow
 matplotlib
 seaborn
 shapely
+
+scipy
+ioos_qc
+
+pillow
+streamlit
+folium
+plotly
+streamlit_folium
 jupyter-contrib-core
 jupyter-contrib-nbextensions
 jupyter-highlight-selected-word
@@ -15,5 +24,3 @@ jupyter-resource-usage
 jupyter-server
 jupyter_client
 jupyter_core
-scipy==1.10.1
-ioos_qc
