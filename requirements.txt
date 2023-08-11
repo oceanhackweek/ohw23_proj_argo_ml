@@ -1,12 +1,12 @@
 argopy
 pandas
+geopandas
 numpy
 scikit-learn
 tensorflow
 matplotlib
 seaborn
 shapely
-
 scipy
 ioos_qc
 
